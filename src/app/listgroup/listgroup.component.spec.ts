@@ -1,21 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DatatableComponent } from './datatable.component';
-import '../color.js';
+import { ListgroupComponent } from './listgroup.component';
 
-describe('DatatableComponent', () => {
-  let component: DatatableComponent;
-  let fixture: ComponentFixture<DatatableComponent>;
+describe('ListgroupComponent', () => {
+  let component: ListgroupComponent;
+  let fixture: ComponentFixture<ListgroupComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DatatableComponent ]
+      declarations: [ ListgroupComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DatatableComponent);
+    fixture = TestBed.createComponent(ListgroupComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

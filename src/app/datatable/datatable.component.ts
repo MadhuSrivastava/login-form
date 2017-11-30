@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./datatable.component.css']
 })
 export class DatatableComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit() {

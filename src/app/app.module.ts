@@ -6,6 +6,9 @@ import { LoginComponent } from './login/login.component';
 
 import { RouterModule , Routes } from '@angular/router';
 import { DatatableComponent } from './datatable/datatable.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { ListgroupComponent } from './listgroup/listgroup.component';
+import { ParallexComponent } from './parallex/parallex.component';
 
 const appRoutes:Routes = [
   {
@@ -14,8 +17,8 @@ const appRoutes:Routes = [
   }
   ,
   {
-    path: 'datatable',
-    component:DatatableComponent
+    path: 'home',
+    component:ParallexComponent
   }
   
 ]
@@ -26,6 +29,9 @@ const appRoutes:Routes = [
     AppComponent,
     LoginComponent,
     DatatableComponent,
+    NavbarComponent,
+    ListgroupComponent,
+    ParallexComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

@@ -1,21 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DatatableComponent } from './datatable.component';
-import '../color.js';
+import { ParallexComponent } from './parallex.component';
 
-describe('DatatableComponent', () => {
-  let component: DatatableComponent;
-  let fixture: ComponentFixture<DatatableComponent>;
+describe('ParallexComponent', () => {
+  let component: ParallexComponent;
+  let fixture: ComponentFixture<ParallexComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DatatableComponent ]
+      declarations: [ ParallexComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DatatableComponent);
+    fixture = TestBed.createComponent(ParallexComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
